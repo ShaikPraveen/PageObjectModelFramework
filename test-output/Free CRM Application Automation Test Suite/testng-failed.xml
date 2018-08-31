@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Free CRM Application Automation Test Suite]">
+  <test thread-count="5" name="Free CRM Application Test(failed)">
+    <classes>
+      <class name="com.infofactors.qa.testcaes.ContactsPageTest">
+        <methods>
+          <include name="validateCreateNewContactTest"/>
+          <include name="selectMultipleContactsTest"/>
+          <include name="selectContactTest"/>
+          <include name="setup"/>
+          <include name="verifyContactsLableTest"/>
+        </methods>
+      </class> <!-- com.infofactors.qa.testcaes.ContactsPageTest -->
+    </classes>
+  </test> <!-- Free CRM Application Test(failed) -->
+</suite> <!-- Failed suite [Free CRM Application Automation Test Suite] -->
